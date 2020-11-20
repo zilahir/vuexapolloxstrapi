@@ -1,0 +1,10 @@
+query Articles {
+  articles {
+    id
+    created_at
+    date
+    content
+    title
+    assets {id url}
+  }
+}
